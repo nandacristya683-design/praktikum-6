@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veronica Ananda </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- HEADER / NAVBAR -->
+    <header class="navbar">
+        <div class="nav-container">
+            <h1 class="logo">Veronica</h1>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="#tentang">Tentang</a></li>
+                    <li><a href="#data-diri">Data Diri</a></li>
+                    <li><a href="#form">Form</a></li>
+                    <li><button id="theme-toggle">🌙 Dark Mode</button></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HERO / FOTO PROFIL -->
+    <section class="hero">
+        <img src="img1.jpg" alt="Foto Profil Veronica">
+        <p>Mahasiswa Informatika</p>
+    </section>
+
+    <!-- MAIN -->
+    <main>
+
+        <!-- Tentang -->
+        <section id="tentang">
+            <h2>Tentang Saya</h2>
+            <article>
+                <p>
+                    Saya adalah mahasiswa S1 Informatika di ITSK Soepraoen. Saya memiliki ketertarikan di bidang teknologi,
+                    khususnya dalam pengembangan website sederhana namun menarik. Saat ini saya sedang mempelajari
+                    dasar-dasar pengembangan web seperti HTML dan CSS.
+                </p>
+            </article>
+        </section>
+
+        <!-- Data Diri dan Kontak -->
+        <div class="info-container">
+            <article id="kontak">
+                <h2>Kontak</h2>
+                <p>Email: veronicaananda.eka@gmail.com</p>
+                <p>No HP: 0882009552684</p>
+            </article>
+
+            <article id="data-diri">
+                <h2>Data Diri</h2>
+                <p>Nama: Veronica Ananda Eka Cristya</p>
+                <p>Umur: 20 tahun</p>
+                <p>NIM: 24102021</p>
+                <p>Prodi: Informatika</p>
+                <p>Universitas: ITSK Soepraoen</p>
+            </article>
+        </div>
+
+        <!-- Media Sosial -->
+        <section id="media-sosial">
+            <h2>Media Sosial</h2>
+            <ul>
+                <li><a href=" https://www.instagram.com/vrncaaa_c?igsh=aDJ3czlycWo2azRw&utm_source=ig_contact_invite" target="_blank">Instagram</a></li>
+                <li><a href="https://www.linkedin.com/in/veronica-ananda-eka-cristya-923740403/" target="_blank">LinkedIn</a></li>
+                <li><a href="https://github.com/" target="_blank">GitHub</a></li>
+            </ul>
+        </section>
+
+        <!-- Form -->
+        <section id="form">
+            <h2>Form Pendaftaran</h2>
+
+            <form id="contact-form">
+                <label>Nama:</label>
+                <input type="text" id="nama" required>
+
+                <label>Email:</label>
+                <input type="email" id="email" required>
+
+                <label>Telepon:</label>
+                <input type="tel" id="nohp" required>
+
+                <label>Kategori:</label>
+                <select id="kategori" required>
+                    <option value="">-- Pilih --</option>
+                    <option value="Web Development">Web Development</option>
+                    <option value="Desain">Desain</option>
+                    <option value="Konsultasi">Konsultasi</option>
+                </select>
+
+                <label>Pesan:</label>
+                <textarea id="pesan" rows="4" required></textarea>
+
+                <button type="submit">Kirim</button>
+            </form>
+
+            <div id="hasil"></div>
+        </section>
+
+        <!-- To Do List -->
+        <section id="todo">
+            <h2>To Do List</h2>
+            <div style="display: flex; gap: 10px; margin-bottom: 15px;">
+                <input type="text" id="task-input" placeholder="Masukkan tugas baru..." style="flex: 1; padding: 8px;">
+                <button type="button" id="add-task-btn" style="padding: 8px 15px;">Tambah</button>
+            </div>
+            <ul id="task-list" style="list-style: none; padding: 0;"></ul>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 LK_4</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

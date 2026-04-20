@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LK_4</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- navbar/ -->
+    <header class="navbar">
+        <div class="nav-container">
+
+            <!-- logo -->
+            <h1 class="logo">Veronica</h1>
+
+            <!-- menu -->
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="#tentang">Tentang</a></li>
+                    <li><a href="#data">Data Diri</a></li>
+                    <li><a href="#kontak">Kontak</a></li>
+                    <li><a href="#form">Form</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+    <section class="hero">
+        <img src="img1.jpg" alt="Foto Profil">
+        <p>Mahasiswa S1 Informatika</p>
+    </section>
+
+    <!-- main -->
+    <main class="main-grid">
+
+        <!-- tentang saya-->
+        <section id="tentang" class="tentang">
+            <h2>Tentang Saya</h2>
+            <article>
+                <p>
+            Saya adalah mahasiswa S1 Informatika di ITSK Soepraoen. Saya memiliki ketertarikan di bidang teknologi, khususnya dalam pengembangan website sederhana namun menarik.Saat ini saya sedang mempelajari dasar-dasar pengembangan web seperti HTML dan CSS. Saya belajar
+            bagaimana menyusun struktur halaman yang baik, membuat tampilan yang menarik, serta memahami
+            cara kerja elemen-elemen dalam sebuah website. Selain itu, saya juga mencoba untuk terus berlatih
+            agar kemampuan saya semakin berkembang
+                </p>
+            </article>
+        </section>
+
+        <!-- membuat data diri -->
+        <section id="data" class="data-diri">
+            <h2>Data Diri</h2>
+
+            <div class="data-container">
+                <article>Nama: Veronica Ananda Eka Cristya</article>
+                <article>Umur: 20 tahun</article>
+                <article>NIM: 24102021</article>
+                <article>Prodi: Informatika</article>
+                <article>Universitas: ITSK Soepraoen</article>
+            </div>
+        </section>
+
+        <!-- kontak -->
+        <section id="kontak">
+            <h2>Kontak</h2>
+            <article>
+                <p>Email: veronicaananda.eka@gmail.com</p>
+                <p>No HP: 0882009552684</p>
+            </article>
+        </section>
+
+        <!-- form -->
+        <section id="form">
+            <h2>Form Pendaftaran</h2>
+
+            <form>
+                <!-- Nama -->
+                <label for="nama">Nama:</label>
+                <input type="text" id="nama" required>
+
+                <!-- Email -->
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+
+                <!-- Telepon -->
+                <label for="telepon">Telepon:</label>
+                <input type="tel" id="telepon" required>
+
+                <!-- Dropdown -->
+                <label for="kategori">Kategori:</label>
+                <select id="kategori" required>
+                    <option>-- Pilih --</option>
+                    <option>Pemrograman Web</option>
+                    <option>Jaringan Komputer</option>
+                    <option>Sistem Informasi</option>
+                </select>
+
+                <!-- Pesan -->
+                <label for="pesan">Pesan:</label>
+                <textarea id="pesan" rows="4"></textarea>
+
+                <!-- Tombol -->
+                <button type="submit">Kirim</button>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- foooter -->
+    <footer>
+        <p>&copy; 2024 LK_4</p>
+    </footer>
+
+</body>
+
+</html>
