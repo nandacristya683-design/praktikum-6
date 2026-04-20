@@ -195,7 +195,9 @@ body.dark-mode {
 body.dark-mode .navbar {
   background: #1e1e1e;
 }
-
+body {
+    transition: background-color 0.5s, color 0.5s;
+}
 /* Menu tetap putih */
 body.dark-mode .nav-menu a {
   color: white;
