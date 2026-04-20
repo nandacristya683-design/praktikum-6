@@ -111,25 +111,25 @@ ul {
 }
 
 /* MEDIA SOSIAL */
-#media-sosial {
+#sosial_media {
   text-align: center;
   background: #f4d5e3;
   padding: 20px;
   border-radius: 10px;
 }
 
-#media-sosial ul {
+#sosial_media ul {
   list-style: none;
   margin-top: 10px;
   padding: 0;
 }
 
-#media-sosial ul li {
+#sosial_media ul li {
   display: inline-block;
   margin: 8px;
 }
 
-#media-sosial ul li a {
+#sosial_media ul li a {
   text-decoration: none;
   background: #da83ab;
   color: white;
@@ -139,7 +139,7 @@ ul {
   transition: 0.3s;
 }
 
-#media-sosial ul li a:hover {
+#sosial_media ul li a:hover {
   background: #efa8c9;
 }
 
